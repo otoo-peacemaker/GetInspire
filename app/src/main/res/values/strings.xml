@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Get Inspire</string>
+
+    <!--Change ads id here-->
+    <string name="app_id">ca-app-pub-8802667627929508~4954286547</string>
+    <string name="banner_ads">ca-app-pub-8802667627929508/3118121389</string>
+    <string name="interstitial_ads">ca-app-pub-8802667627929508/4239631366</string>
+
+    <string name="developers_name">WelbCode Android Developers</string>
+    <string name="app_description">Get Inspire app is an android application. Inspiration Pro App with user-friendly interface with easy to manage</string>
+    <string name="ratethisapp_msg">If you like this app.Please take a moment to rate it. It would\'t take more than a minute.\nEnjoy!</string>
+    <string name="ratethisapp_title">Rate Us</string>
+    <string name="rate_it">Rate it</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="nav_header_title">Your Profile</string>
+    <string name="nav_header_subtitle">getinspire.welbcode@welbtech.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="quote_of_the_day">Quote of the day</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="imglogo">imgLogo</string>
+    <string name="powered_by"><i>Powered by</i> <b>Welbcode</b>\n</string>
+    <string name="get_inspire">Get Inspire</string>
+    <string name="close_quote">close Quote</string>
+    <string name="like">Like</string>
+    <string name="save">Save</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="please_wait">Please Wait..</string>
+    <string name="img_view">Image view</string>
+    <string name="share_text">share</string>
+    <string name="share_image">share image</string>
+    <string name="favorite">favarite</string>
+    <string name="about_us">About US</string>
+    <string name="close">close</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+</resources>

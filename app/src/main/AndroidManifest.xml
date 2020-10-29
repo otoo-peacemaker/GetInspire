@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kwesiwelbred.getinspire">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.kwesiwelbred.getinspire.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBarNew">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kwesiwelbred.getinspire.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.kwesiwelbred.getinspire.FavoriteListActivity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+        <activity
+            android:name="com.kwesiwelbred.getinspire.QuotesActivity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+        <activity
+            android:name="com.kwesiwelbred.getinspire.QuoteOfTheDayActivity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+        <activity
+            android:name="com.kwesiwelbred.getinspire.PrivacyPolicyActivity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+        <activity
+            android:name="com.kwesiwelbred.getinspire.ViewPagerActivity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+        <activity
+            android:name="com.kwesiwelbred.getinspire.All_Inflater_Activity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8802667627929508~4954286547" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+    </application>
+
+</manifest>

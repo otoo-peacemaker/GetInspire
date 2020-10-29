@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#807D7E</color>
+
+    <color name="lightBlack">#ff333333</color>
+    <color name="grey">#636363</color>
+
+    //for Like Button Animation
+    <color name="dot1">#F4511E</color>
+    <color name="dot2">#D1022F</color>
+    <color name="dot3">#6700FF</color>
+</resources>

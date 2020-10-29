@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="center|top"
+        android:layout_gravity="center|top"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginStart="9.0dip"
+        android:layout_marginEnd="9.0dip"
+        app:cardCornerRadius="3.0dip"
+        app:cardElevation="4.0dip">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center|top"
+            android:id="@+id/image_view"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:src="@drawable/ic_menu_share"
+            app:civ_border_color="#34757575"
+            app:civ_border_width="8.0dip">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/text_view_cat_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="6.0dip"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+
